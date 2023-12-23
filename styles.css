@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    background: #dad7cd;
+    color: #2b2839;
+    border-bottom: 6px groove #dad7cd;
+    border-radius: 10px;
+    text-shadow: 2px 2px 10px;
+    box-shadow: 1px 2px 10px;
+}
+
+.info {
+    transition: color 0.3 ease-in-out;
+}
+
+.info:hover {
+    color: white;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
