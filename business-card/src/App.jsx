@@ -1,8 +1,9 @@
 import './App.css'
 import Footer from './components/Footer'
+import Info from './components/Info'
+import ButtonLinks from './components/ButtonLinks'
 
 import profile from './assets/kelly.jpg'
-import linkedin from './assets/linkedin.svg'
 
 function App() {
   return (
@@ -12,41 +13,11 @@ function App() {
       <h1>Kelly Tiengane</h1>
       <p>Frontend Developer</p>
       
-      <>
-        <button type='button'>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-          </svg>
-          Email
-        </button>
+      <ButtonLinks />
+      
+      <Info />
 
-        <>
-          <button type='button'>
-            <img src={linkedin}/>
-
-            LinkedIn
-          </button>
-        </>
-      </>
-
-      <>
-        <h2>About</h2>
-
-        <p>
-          I am a junior frontend developer. I love making UI/UX designs come
-          to life. I'm always ready to learn.
-        </p>
-      </>
-
-      <>
-        <h2>Interests</h2>
-
-        <p>
-          Knit. Crochet. Reader. Music. Space. Clouds. 
-        </p>
-      </>
-
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
