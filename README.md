@@ -3,9 +3,8 @@
 A simple business card featuring your name, expertise, social links, accompanied by a photograph and a small information section
 
 ## Overview
-### Desktop: Old vs New version
+### Desktop
 
-<img src="business-card/public/old-desktop.png">
 <img src="business-card/public/new-desktop.png">
 
 ### Mobile
