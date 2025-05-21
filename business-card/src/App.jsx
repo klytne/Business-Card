@@ -7,7 +7,7 @@ import profile from './assets/kelly.jpg'
 
 function App() {
   return (
-    <div className='border rounded-lg bg-[#1a1c22] w-min my-10'>
+    <div className='rounded-lg bg-[#1a1c22] w-min my-10 max-sm:w-70'>
       <img src={profile} className='w-full rounded-t-lg'/>
 
       <div className='px-10'>
