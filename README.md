@@ -13,7 +13,7 @@ A simple business card featuring your name, expertise, social links, accompanied
 
 ## Links
 <ul>
-  <li><a href="#">Live</a></li>
+  <li><a href="https://kly-business-card.netlify.app/">Live</a></li>
 </ul>
 
 ## Note
@@ -30,7 +30,7 @@ A simple business card featuring your name, expertise, social links, accompanied
 
 ### What I learnt
 <ul>
-  <li><>...</> vs </div>...</div> as DOM elements</li>
+  <li>&lt;&gt;...&lt;/&gt; vs &lt;/div&gt;...&lt;/div&gt; as DOM elements</li>
   <li>TailwindCSS custom inline styling</li>
   <li>TailwindCSS responsive styles</li>
 </ul>
